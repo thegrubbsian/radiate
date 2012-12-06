@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  host: localhost
+  username: radiate
+  password:
+  database: radiate_dev
+  pool: 5
+  timeout: 5000
+
+test:
+  adapter: postgresql
+  host: localhost
+  username: radiate
+  password:
+  database: radiate_test
+  pool: 5
+  timeout: 5000
